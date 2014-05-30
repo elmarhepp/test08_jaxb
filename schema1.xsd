@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="cdStore" type="cdStore"/>
+
+  <xs:complexType name="cdStore">
+    <xs:sequence>
+      <xs:element name="CD" type="cd" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="cdName" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="cd">
+    <xs:sequence>
+      <xs:element name="artist" type="xs:string" minOccurs="0"/>
+      <xs:element name="title" type="xs:string" minOccurs="0"/>
+      <xs:element name="year" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

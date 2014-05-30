@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cdStore>
+    <CD>
+        <artist>Karajan</artist>
+        <title>Don Carlos</title>
+        <year>1975</year>
+    </CD>
+    <CD>
+        <artist>Abbado</artist>
+        <title>Don Giovanni</title>
+        <year>1991</year>
+    </CD>
+    <cdName>CD Butterfly Store</cdName>
+</cdStore>
